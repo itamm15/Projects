@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <title>Strona główna</title>
+    <style>
+        a{
+            color: white;
+        }
+        a:hover{
+            color: white;
+        }
+        .under{
+            display: none;
+        }
+        #under_display:hover ~ .under{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!--navbar-->
+    <div class="container-fluid bg-dark text-white" style="height: 50px;">
+        <div class="row" style="height: 50px;">
+            <div class="col-3 d-flex justify-content-center align-items-center"><h5><a href="index.html">Sklep instalacyjny</a></h5></div>
+            <div class="col-3"></div>
+            <div class="col-3 d-flex justify-content-center align-items-center"><h6>Koszyk</h6></div>
+            <div class="col-3 d-flex justify-content-center align-items-center"><h6>Zaloguj się! </h6></div>
+
+        </div>
+    </div>
+    <!--menu-->
+    <div class="container float-left bg-dark text-white" style="width: 150px;">
+        <div class="d-flex flex-column">
+            <div class="p-2" id="under_display"><h3>Menu</h3></div>
+            <div class="p-2" id="under_display">Kotły</div>
+                <div class="under container">
+                    <p>cos tam</p>
+                </div>
+            <div class="p-2" id="under_display">Grzejniki</div>
+                <div class="under container">
+                    <p>cos tam</p>
+                </div>
+            <div class="p-2" id="under_display">Tece</div>
+                <div class="under container">
+                    <p>cos tam</p>
+                </div>
+            <div class="p-2" id="under_display">Kissan</div>
+                <div class="under container">
+                    <p>cos tam</p>
+                </div>
+        </div>
+    </div>
+    <!--article-->
+    <div class="container-fluid">
+
+    </div>
+</body>
+</html>
