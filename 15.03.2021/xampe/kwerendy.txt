@@ -1,0 +1,6 @@
+1.
+SELECT id, imie, nazwisko FROM pacjenci
+2.
+SELECT imie, nazwisko, choroby_przewlekle FROM pacjenci where id LIKE 1
+3.
+SELECT imie, nazwisko FROM pacjenci WHERE uczulenia like 'brak'
